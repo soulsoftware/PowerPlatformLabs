@@ -1,0 +1,12 @@
+{
+  "name": "dataverseplugins",
+  "version": "1.0.0",
+  "description": "Building Dataverse plugins using Power Platform CLI",
+  "private": true,
+  "scripts": {
+    "sync": "pac solution sync -pca -a"
+  },
+  "keywords": [],
+  "author": "bsorrentino <bartolomeo.sorrentino@gmail.com> (http://soulsoftware-bsc.blogspot.it/)",
+  "license": "ISC"
+}
