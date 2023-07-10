@@ -2,9 +2,9 @@
 
 PowerPlatform experimentation
 
-## Dataverse Plugins
+## Projects
 
-* [Dataverse Plugins Solution](dataverseplugins)
+* [Dataverse Plugins](dataverseplugins)
 
 # References 
 
