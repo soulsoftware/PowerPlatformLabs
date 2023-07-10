@@ -5,7 +5,7 @@ using System;
 using System.Runtime.CompilerServices;
 using System.ServiceModel;
 
-namespace myfirstplugin
+namespace myFirstStepPlugin
 {
     /// <summary>
     /// Base class for all plug-in classes.

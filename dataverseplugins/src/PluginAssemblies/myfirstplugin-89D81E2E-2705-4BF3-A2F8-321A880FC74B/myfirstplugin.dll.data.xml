@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<PluginAssembly FullName="myfirstplugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6d7020c0e2efa89f" PluginAssemblyId="89d81e2e-2705-4bf3-a2f8-321a880fc74b" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<PluginAssembly FullName="myFirstStepPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6d7020c0e2efa89f" PluginAssemblyId="89d81e2e-2705-4bf3-a2f8-321a880fc74b" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <IsolationMode>2</IsolationMode>
   <SourceType>0</SourceType>
   <IntroducedVersion>1.0</IntroducedVersion>
-  <FileName>/PluginAssemblies/myfirstplugin-89D81E2E-2705-4BF3-A2F8-321A880FC74B/myfirstplugin.dll</FileName>
+  <FileName>/PluginAssemblies/myFirstStepPlugin-89D81E2E-2705-4BF3-A2F8-321A880FC74B/myFirstStepPlugin.dll</FileName>
   <PluginTypes>
-    <PluginType AssemblyQualifiedName="myfirstplugin.Plugin1, myfirstplugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6d7020c0e2efa89f" PluginTypeId="e040f04d-7422-4fed-9095-955f846aa5bf" Name="myfirstplugin.Plugin1">
+    <PluginType AssemblyQualifiedName="myFirstStepPlugin.Plugin1, myFirstStepPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6d7020c0e2efa89f" PluginTypeId="e040f04d-7422-4fed-9095-955f846aa5bf" Name="myFirstStepPlugin.Plugin1">
       <FriendlyName>dc962bec-117d-4484-8d9d-af7e978dae6e</FriendlyName>
     </PluginType>
   </PluginTypes>

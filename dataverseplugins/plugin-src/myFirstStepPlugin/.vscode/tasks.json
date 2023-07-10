@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/myfirstplugin.csproj",
+                "${workspaceFolder}/myFirstStepPlugin.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -20,7 +20,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/myfirstplugin.csproj",
+                "${workspaceFolder}/myFirstStepPlugin.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],

@@ -80,7 +80,7 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent type="91" id="{89d81e2e-2705-4bf3-a2f8-321a880fc74b}" schemaName="myfirstplugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6d7020c0e2efa89f" behavior="0" />
+      <RootComponent type="91" id="{89d81e2e-2705-4bf3-a2f8-321a880fc74b}" schemaName="myFirstStepPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6d7020c0e2efa89f" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>

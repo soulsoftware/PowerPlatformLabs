@@ -1,7 +1,7 @@
 using Microsoft.Xrm.Sdk;
 using System;
 
-namespace myfirstplugin
+namespace myFirstStepPlugin
 {
     /// <summary>
     /// Plugin development guide: https://docs.microsoft.com/powerapps/developer/common-data-service/plug-ins
