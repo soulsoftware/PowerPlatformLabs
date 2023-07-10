@@ -80,6 +80,7 @@
       </Addresses>
     </Publisher>
     <RootComponents>
+      <RootComponent type="62" schemaName="soul_PluginTestApp" behavior="0" />
       <RootComponent type="91" id="{eb46c8c1-d5f9-4e5f-b74a-33947190039b}" schemaName="myFirstStepPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6d7020c0e2efa89f" behavior="0" />
       <RootComponent type="92" id="{13b4e484-111f-ee11-9cbe-000d3a5a7615}" behavior="0" />
     </RootComponents>
