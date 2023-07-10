@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="myFirstStepPlugin.Plugin1: Create of account" SdkMessageProcessingStepId="{13b4e484-111f-ee11-9cbe-000d3a5a7615}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>9ebdbb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>myFirstStepPlugin.Plugin1, myFirstStepPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6d7020c0e2efa89f</PluginTypeName>
+  <PluginTypeId>07e01867-1bf8-4dba-9efb-ea4b049dcb0f</PluginTypeId>
+  <PrimaryEntity>account</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>myFirstStepPlugin.Plugin1: Create of account</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>10</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>
