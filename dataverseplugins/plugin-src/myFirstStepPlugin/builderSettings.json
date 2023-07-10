@@ -1,0 +1,14 @@
+﻿{
+  "suppressINotifyPattern": false,
+  "suppressGeneratedCodeAttribute": false,
+  "language": "CS",
+  "generateActions": false,
+  "generateGlobalOptionSets": false,
+  "emitFieldsClasses": false,
+  "entityTypesFolder": "Entities",
+  "messagesTypesFolder": "Messages",
+  "optionSetsTypesFolder": "OptionSets",
+  "entityNamesFilter": [
+    "account"
+  ]
+}

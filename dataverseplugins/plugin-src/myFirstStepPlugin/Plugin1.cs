@@ -33,10 +33,13 @@ namespace myFirstStepPlugin
             {
                var entity = (Entity)context.InputParameters["Target"];
 
+                
                // Check for entity name on which this plugin would be registered
                if (entity.LogicalName == "account")
                {
-                    entity["name"] = entity["name"] + "from plugin";
+                    var account = entity.ToEntity<Account>();
+                    account.Name = account.Name + " from modelbuilder plugin";
+                    // entity["name"] = entity["name"] + " from plugin";
                }
             }
         }

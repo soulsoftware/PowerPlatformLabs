@@ -4,6 +4,7 @@
   "description": "Building Dataverse plugins using Power Platform CLI",
   "private": true,
   "scripts": {
+    "build": "dotnet build",
     "sync": "pac solution sync -pca -a"
   },
   "keywords": [],
