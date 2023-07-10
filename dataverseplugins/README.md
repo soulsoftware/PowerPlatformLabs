@@ -46,14 +46,38 @@ Make sure that the `<Solution>.cdsproj` has a reference to the `<plugin assembly
 > pac add-reference --path <plugin's project folder>
 ```
 
-
 ### Push plugin update 
+
+After any plugin's code modification you can push the update run command
+
+```
+pac plugin push --pluginFile <path of dll> --pluginId <assemblyId>
+```
+
+You can find the `assemblyId` within file at `<solution folder>/src/PluginAssemblies/<plugin name>-<assemblyId>/<plugin name>.dll.data.xml`
+
+## TIP: PAC CLI ModelBuilder 
+
+### early-bound classes
+
+Use of **early-bound classes** in customization projects that targets Dataverse tables and actions increase code readability and maintainability, they also significantly reduce the risk of errors. 
+
+Recently, the Microsoft Power Platform CLI (PAC CLI) introduced the new `modelbuilder`` command group that **enables early bound classes** generation directly from the CLI. 
+
+```
+pac modelbuilder build --entitynamesfilter <entity name> -o <outputdir>  --writesettingsTemplateFile
+```
+
+For further details take a look [here](modelbuilder)
 
 
 
 # References 
 
 * [Building Dataverse plugins using Power Platform CLI (You Tube)](https://youtu.be/wzHLWNWcY2Q)
+* [How to Call Dataverse Custom APIs Directly in Power Fx](https://discoverpowerplatform.com/how-to-call-dataverse-custom-apis-directly-in-power-fx-a-step-by-step-guide/)
+* [How to Generate Dataverse Early-Bound Classes with PAC CLI ModelBuilder](modelbuilder)
 
 
+[modelbuilder]: https://itmustbecode.com/how-to-generate-dataverse-early-bound-classes-with-pac-cli-modelbuilder/
 [PRT]: https://learn.microsoft.com/en-us/power-apps/developer/data-platform/register-plug-in#about-the-plug-in-registration-tool
